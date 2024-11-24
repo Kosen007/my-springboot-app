@@ -21,7 +21,7 @@ import com.blog.userCrud.services.UserService;
 
 import jakarta.validation.Valid;
 
-@CrossOrigin(origins = "http://localhost:3000", maxAge = 3600)
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/users")
 public class UserController {
